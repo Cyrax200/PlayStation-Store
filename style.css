@@ -220,6 +220,11 @@ header{
     header{
         height:10vh;
     }
+
+.coracao{
+    display: none;
+}
+
     .hardware{
         display: flex;
         width:100%;
@@ -239,11 +244,16 @@ header{
     }
 
     .capas img{
-        width: 450px
+        width:350px;
+        height:350px;
+        margin-right: 20px;
+        
     }
 
     .videos iframe{
-      width: 400px;
+      width:300px;
+
+
     }
    
 
@@ -260,7 +270,7 @@ header{
 
 
 .ps5  img{
-    width: 450px;
+    width: 350px;
    flex-wrap: wrap;
    padding-right:100px;
 
@@ -292,6 +302,9 @@ header{
    color: #0000007a;
    }
 
+   .rodape ul{
+    padding: 2px;
+   }
 
 }
 
