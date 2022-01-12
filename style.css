@@ -214,11 +214,16 @@ header{
 
     body{
         overflow-x: hidden;
+        width: 100vw;
     }
 
 
     header{
         height:10vh;
+    }
+
+    .btn input{
+       width:80px;
     }
 
 .coracao{
@@ -234,7 +239,7 @@ header{
     }
 
     .hardware img{
-        width:500px;
+        width:300px;
         flex-wrap: wrap;
         padding-right:10px;
     }
@@ -270,9 +275,10 @@ header{
 
 
 .ps5  img{
-    width: 350px;
+    width:200px;
+    height: 300px;
    flex-wrap: wrap;
-   padding-right:100px;
+  
 
   
 }
@@ -304,6 +310,10 @@ header{
 
    .rodape ul{
     padding: 2px;
+   }
+
+   .rodape{
+       width: 98%;
    }
 
 }
