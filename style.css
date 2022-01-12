@@ -1,0 +1,287 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.cont-1{
+    display: flex;
+    align-items: center;  
+}
+
+.cont-1 a{
+    padding: 10px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.418);
+    font-weight: 400;
+}
+
+.cont-1 a:hover{
+    color: black;
+}
+
+.ico img{
+    width: 50px;
+}
+
+.logo img{
+    width:70px;
+}
+
+.btn img{
+    width:50px ;
+    cursor: pointer;
+}
+
+.ico{
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn input{
+    width: 200px;
+    height:30px;
+}
+
+.btn, img{
+    display: flex;
+    align-items: center;
+    padding: 12px;
+
+}
+
+
+
+
+.capas{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+
+   
+}
+
+.capas img{
+    width: 500px;
+    height: 600px;
+    box-shadow:10px 0px 10px rgba(0,0,0,.6);
+    margin: 12px;
+    cursor: pointer;
+    
+}
+
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px;
+    
+
+
+}
+
+
+
+.videos iframe{
+    padding: 20px;
+    box-shadow:0px 10px 13px -7px #000000
+    ;
+
+}
+
+
+.hardware{
+    background-image:url(imgs/ghost.png);
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+    box-shadow:-15px -12px 8px -1px rgba(0,0,0,0.26)
+    ;
+   
+
+}
+
+.produto{
+    width: 100%;
+    height: 50vh;
+    color: white;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.brk{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 80vh;
+    background-image:url(imgs/playbk.jpg);
+    background-size: cover;
+    box-shadow: -15px -12px 8px -1px rgba(0,0,0,0.26)
+
+    ;
+  
+}
+
+.brk img{
+    width: 700px;
+}
+
+.ps5 , .psvita{
+    width: 50%;
+  
+}
+
+
+
+.controle{
+    background-image: url(imgs/controles.jpg);
+  background-size: cover;
+    width: 100%;
+    height:70vh;
+    box-shadow:-15px -12px 8px -1px rgba(0,0,0,0.26)
+    ;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height:50vh ;
+    align-items: center;
+    justify-content: center;
+  
+   
+}
+
+.box h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 900px;
+}
+
+
+.box h2{
+    font-size: 50px;
+}
+
+.rodape{
+    background-color:#00439c;
+    width: 100%;
+    height: 20vh;
+
+}
+
+.rodape img{
+    width:90px;
+}
+
+
+.rodape ul{
+    list-style:none ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rodape li a{
+    
+ text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+@media (max-width:700px){
+
+    body{
+        overflow-x: hidden;
+    }
+    .hardware{
+        display: flex;
+        width:100%;
+       background: black;
+       
+    }
+
+   
+
+.psvita{
+    display: none;
+}
+
+.brk{
+    width:100%;
+    background-position: center;
+ 
+}
+
+
+
+.ps5  img{
+    width: 450px;
+   flex-wrap: wrap;
+
+  
+}
+
+
+
+.controle{
+    width: 100%;
+    flex-wrap: wrap;
+  background-position:center ;
+  background-size:contain;
+  background-repeat: no-repeat;
+
+}
+
+   .box h3{
+       display: flex;
+       flex-direction: column;
+       width: 75vw;
+       margin-bottom: 90px;
+   }
+
+   .box h2{
+    display: flex;
+    width: 100vw;
+    font-size: 30px;
+   justify-content: center;
+   }
+
+
+}
+
+@media (max-width:1920px){
+    .png5{
+        display: none;
+    }
+    
+}
+
+
+@media (min-width:700px)  and (max-width:1400px){
+    .psvita{
+        display: none;
+    }
+}
